@@ -8,7 +8,7 @@ mkdir -p deps &&\
   cd deps/ && \
   rm -rf ./gatling && \
   unzip gatling.zip && \
-  mv gatling-charts-highcharts-bundle-3.9.5 ~/gatling && \
+  mv gatling-charts-highcharts-bundle-3.9.5 $HOME/gatling && \
   rm gatling.zip && \
   cd .. && \
   echo "All done!"
